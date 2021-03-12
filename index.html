@@ -3,9 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>etch-a-sketch</title>
 </head>
 <body>
-
+    <div class="wrapper">
+        <h1 id="title" data-text="etch-a-sketch">etch-a-sketch</h1>
+        <div class="canvas-wrapper">
+            <canvas id="etch-a-sketch" width="1600" height="1000"></canvas>
+                <h3 class="start-title">clear & start:</h3>
+                <div class="buttons-wrapper">
+                    <button id="btn-top-left" class="button-start">top-left</button>
+                    <button id="btn-top-right" class="button-start">top-right</button>
+                    <button id="btn-center" class="button-start active">center</button>
+                    <button id="btn-bottom-left" class="button-start">bottom-left</button>
+                    <button id="btn-bottom-right" class="button-start">bottom-right</button>
+                </div>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
 </body>
 </html>
